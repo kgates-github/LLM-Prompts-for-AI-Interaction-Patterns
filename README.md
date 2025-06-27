@@ -8,7 +8,7 @@ I ran these prompts using Anthropic’s dev console, which requires you to set u
 
 https://console.anthropic.com/
 
-(<br/><br/>)
+<br/>
 CONTENTS
 
 [Research prompt](https://pages.github.com/)
