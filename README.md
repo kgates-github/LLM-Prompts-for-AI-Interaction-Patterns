@@ -10,7 +10,7 @@ https://console.anthropic.com/
 
 <br/>
 CONTENTS
-<br/>
+<br/><br/>
 
 [Research prompt](https://pages.github.com/)
 
@@ -18,7 +18,7 @@ The research prompt demonstrates how to transform a broad topic like "inflation"
 
 [Presentation prompt](https://pages.github.com/)
 
-This prompt takes the JSON object with findings from the research prompt and creates a slide presentation.
+This prompt takes the JSON object with findings from the research prompt and creates content for a slide presentation.
 
 [Theme and style prompt](https://pages.github.com/)
 
