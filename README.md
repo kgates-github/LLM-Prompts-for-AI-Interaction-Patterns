@@ -1,6 +1,6 @@
 # LLM-Prompts-for-AI-Interaction-Patterns
 
-# Chat prompts used in “The Prompt-First Designer: Three Case Studies in AI-Native App Design”
+### Chat prompts used in “The Prompt-First Designer: Three Case Studies in AI-Native App Design”
 
 This repo contains the chat prompts used for the essay, “The Prompt-First Designer: Three Case Studies in AI-Native App Design”.
 
