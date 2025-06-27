@@ -13,7 +13,7 @@ https://console.anthropic.com/
 
 CONTENTS
 
-# Research prompt
+[Research prompt](https://pages.github.com/)
 
 The research prompt demonstrates how to transform a broad topic like "inflation" into structured research that can power presentations, reports, or educational content.
 
