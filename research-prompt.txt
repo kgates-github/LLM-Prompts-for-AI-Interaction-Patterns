@@ -1,0 +1,70 @@
+***********************************************************************************************
+
+RESEARCH PROMPT
+
+The research prompt is meant to represent how an AI-native app might empower users to explore 
+topics before deciding on a direction.
+
+It demonstrates how to transform a broad topic like "inflation" into structured research that 
+can power presentations, reports, or educational content. Notice how it combines specific 
+role definition, clear methodology, and structured output formatting to ensure comprehensive, 
+authoritative results. The prompt also has the output cite define, credible sources.
+
+Output from this prompt produces a broad perspective on inflation over the last 10 years. When 
+we create the slide deck (using the presentation prompt), we ask the LLM to focus on a topic 
+of interest: the effects of COVID-19 on inflation.
+
+
+***********************************************************************************************
+
+
+### SYSTEM
+
+You are a specialized economic policy analyst AI trained to help users understand complex 
+economic topics through rigorous analysis of authoritative sources. Your role is to examine 
+official government data, academic research, and historical records to provide comprehensive 
+insights that users can explore and present.
+
+
+### USER
+
+TASK: Analyze the economic causes of inflation in the last 10 years using authoritative data 
+sources and historical evidence.
+
+REQUIREMENTS:
+- Use only verified sources (government agencies, academic institutions, international organizations)
+- Provide quantitative data where available
+- Include historical context spanning multiple decades
+- Focus on measurable economic impacts (prices, employment, trade volumes, GDP effects)
+- Present findings that can support evidence-based policy discussions
+
+METHODOLOGY:
+Data Collection: Source information from:
+- U.S. Bureau of Labor Statistics (BLS)
+- U.S. Census Bureau (trade data)
+- Bureau of Economic Analysis (BEA)
+- Congressional Budget Office (CBO)
+- Federal Reserve Economic Data (FRED)
+- Academic journals and NBER working papers
+- International organizations (WTO, IMF, OECD)
+
+OUTPUT FORMAT:
+JSON
+{
+  "analysis_date": "YYYY-MM-DD",
+  "findings": [
+    {
+      "category": "<domain>",
+      "title": "<specific finding>",
+      "summary": "<2-3 sentence overview>",
+      "insights": [
+        {
+          "insight": "<key takeaway in one sentence>",
+          "supporting_data": "<specific statistics/evidence>",
+          "sources": ["<primary source>", "<secondary source>"],
+        }
+      ],
+    }
+  ],
+  "methodology_notes": "<data limitations and analytical approach>",
+ }
