@@ -12,7 +12,7 @@ https://console.anthropic.com/
 CONTENTS
 <br/><br/>
 
-[Research prompt]([https://pages.github.com/](https://github.com/kgates-github/LLM-Prompts-for-AI-Interaction-Patterns/blob/main/research-prompt.txt))
+[Research prompt]([https://pages.github.com/](https://github.com/kgates-github/LLM-Prompts-for-AI-Interaction-Patterns/blob/main/research-prompt.txt)
 
 The research prompt is meant to represent how an AI-native app might empower users to explore 
 topics before deciding on a direction.
@@ -26,15 +26,15 @@ Output from this prompt produces a broad perspective on inflation over the last 
 we create the slide deck (using the presentation prompt), we ask the LLM to focus on a topic 
 of interest: the effects of COVID-19 on inflation.
 
-[Presentation prompt]([https://pages.github.com/](https://github.com/kgates-github/LLM-Prompts-for-AI-Interaction-Patterns/blob/main/presentation-prompt.txt))
+[Presentation prompt]([https://pages.github.com/](https://github.com/kgates-github/LLM-Prompts-for-AI-Interaction-Patterns/blob/main/presentation-prompt.txt)
 
 This prompt takes the JSON object with findings from the research prompt and creates a slide presentation. Being able to craft UX with LLM-simulated content is key.
 
-[Theme and style prompt]([https://pages.github.com/](https://github.com/kgates-github/LLM-Prompts-for-AI-Interaction-Patterns/blob/main/theme-and-style-prompt.txt))
+[Theme and style prompt]([https://pages.github.com/](https://github.com/kgates-github/LLM-Prompts-for-AI-Interaction-Patterns/blob/main/theme-and-style-prompt.txt)
 
 This prompt takes a slide deck outline and comes up with themes that capture the essence of the content. It then creates a matrix of themes and styles to be used to generate image search queries.
 
-[Image query prompt]([https://pages.github.com/](https://github.com/kgates-github/LLM-Prompts-for-AI-Interaction-Patterns/blob/main/image-query-prompt.txt))
+[Image query prompt]([https://pages.github.com/](https://github.com/kgates-github/LLM-Prompts-for-AI-Interaction-Patterns/blob/main/image-query-prompt.txt)
 
 This prompt takes a matrix of themes and styles and generates search queries to be used with image search APIs. 
 
