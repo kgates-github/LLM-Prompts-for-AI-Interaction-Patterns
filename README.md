@@ -14,11 +14,21 @@ CONTENTS
 
 [Research prompt](https://pages.github.com/)
 
-The research prompt demonstrates how to transform a broad topic like "inflation" into structured research that can power presentations, reports, or educational content.
+The research prompt is meant to represent how an AI-native app might empower users to explore 
+topics before deciding on a direction.
+
+It demonstrates how to transform a broad topic like "inflation" into structured research that 
+can power presentations, reports, or educational content. It combines specific 
+role definition, clear methodology, and structured output formatting to ensure comprehensive, 
+authoritative results. The prompt also has the output cite credible sources.
+
+Output from this prompt produces a broad perspective on inflation over the last 10 years. When 
+we create the slide deck (using the presentation prompt), we ask the LLM to focus on a topic 
+of interest: the effects of COVID-19 on inflation.
 
 [Presentation prompt](https://pages.github.com/)
 
-This prompt takes the JSON object with findings from the research prompt and creates content for a slide presentation.
+This prompt takes the JSON object with findings from the research prompt and creates a slide presentation. Being able to craft UX with LLM-simulated content is key.
 
 [Theme and style prompt](https://pages.github.com/)
 

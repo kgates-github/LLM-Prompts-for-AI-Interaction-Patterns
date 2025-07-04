@@ -1,0 +1,197 @@
+### SYSTEM
+
+You are an expert AI assistant specializing in visual storytelling for presentations. Your expertise lies in creating strategic image search queries that enhance narrative impact and audience engagement through compelling visual content.
+
+
+
+### USER
+
+# TASK Generate optimized image search queries for the provided slide deck outline. These queries will be used with APIs from WikiCommons and Unsplash to source compelling, relevant images that support the presentation's narrative. These should really reflect the that the slide deck is called, “COVID-19's Economic Impact: The Great Inflation”
+
+# CONTEXT
+
+Presentation Topic: COVID-19's impact on inflation
+Visual Requirements: High emotional and visual impact imagery
+
+Style Definitions:
+
+literal: Direct, concrete visual representations
+metaphorical: Symbolic, abstract visual representations
+professional: Formal, business-appropriate aesthetic
+playful: Creative, engaging, approachable aesthetic
+
+# DELIVERABLES
+
+Return a JSON array with exactly 20 entries using the theme-style combinations below. Important: each optimized_search_query MUST start with the two core_concepts found at the top of the JSON below.
+
+Required Format:
+
+jsonCopy[
+  ["keyword", "style", "optimized_search_query"],
+  ...
+]
+
+# THEME-STYLE COMBINATIONS
+
+{
+  "core_concepts": ["inflation", "pandemic"],
+  "keyword_matrix": [
+    ["COVID-19", "literal and professional"],
+    ["COVID-19", "literal and playful"],
+    ["COVID-19", "metaphorical and professional"],
+    ["COVID-19", "metaphorical and playful"],
+    ["inflation", "literal and professional"],
+    ["inflation", "literal and playful"],
+    ["inflation", "metaphorical and professional"],
+    ["inflation", "metaphorical and playful"],
+    ["economy", "literal and professional"],
+    ["economy", "literal and playful"],
+    ["economy", "metaphorical and professional"],
+    ["economy", "metaphorical and playful"],
+    ["prices", "literal and professional"],
+    ["prices", "literal and playful"],
+    ["prices", "metaphorical and professional"],
+    ["prices", "metaphorical and playful"],
+    ["crisis", "literal and professional"],
+    ["crisis", "literal and playful"],
+    ["crisis", "metaphorical and professional"],
+    ["crisis", "metaphorical and playful"],
+    ["disruption", "literal and professional"],
+    ["disruption", "literal and playful"],
+    ["disruption", "metaphorical and professional"],
+    ["disruption", "metaphorical and playful"],
+    ["supply", "literal and professional"],
+    ["supply", "literal and playful"],
+    ["supply", "metaphorical and professional"],
+    ["supply", "metaphorical and playful"],
+    ["labor", "literal and professional"],
+    ["labor", "literal and playful"],
+    ["labor", "metaphorical and professional"],
+    ["labor", "metaphorical and playful"],
+    ["response", "literal and professional"],
+    ["response", "literal and playful"],
+    ["response", "metaphorical and professional"],
+    ["response", "metaphorical and playful"],
+    ["growth", "literal and professional"],
+    ["growth", "literal and playful"],
+    ["growth", "metaphorical and professional"],
+    ["growth", "metaphorical and playful"]
+  ]
+}
+
+# SLIDE DECK OUTLINE:
+
+{
+  "title": "The COVID-19 Inflation Surge: How a Pandemic Reshaped America's Price Landscape",
+  "caption": "An analysis of the unprecedented inflationary pressures that emerged from 2020-2022, examining the convergence of monetary policy, supply disruptions, fiscal stimulus, and market dynamics that drove inflation to 40-year highs",
+  "sections": [
+    {
+      "section": {
+        "title": "Introduction: The Great Inflation Awakening",
+        "caption": "Setting the stage for understanding how COVID-19 transformed the economic landscape and reignited inflation after decades of stability"
+      },
+      "slides": [
+        {
+          "index": 1,
+          "slide_content": "After nearly four decades of relatively stable prices, COVID-19 triggered the most significant inflationary episode since the 1980s, with consumer prices rising over 9% by mid-2022.",
+          "speaker_notes": "Welcome to our analysis of the COVID-19 inflation surge. For most Americans under 40, the inflation of 2021-2022 was their first experience with sustained price increases. This presentation will explore how a global pandemic created a perfect storm of conditions that drove inflation to levels not seen since the early 1980s. We'll examine six key factors that converged during this period, starting with monetary policy responses and moving through supply chain disruptions, fiscal stimulus, energy volatility, labor market dynamics, and housing market pressures. Understanding these interconnected forces is crucial for both policymakers and citizens as we navigate the post-pandemic economic landscape."
+        },
+        {
+          "index": 2,
+          "slide_content": "The pandemic created an unprecedented convergence of demand-side stimulus and supply-side constraints, fundamentally altering the balance between money supply, goods availability, and consumer purchasing power.",
+          "speaker_notes": "What made the COVID-19 inflation unique was not just its magnitude, but the simultaneous occurrence of multiple inflationary pressures. Unlike previous inflationary episodes that were typically driven by one or two dominant factors—such as oil shocks in the 1970s—the pandemic created a complex web of interconnected pressures. On the demand side, we saw massive monetary and fiscal stimulus that put more money in consumers' hands. On the supply side, we experienced global supply chain breakdowns, labor shortages, and energy market disruptions. This convergence created a situation where increased purchasing power met constrained supply across multiple sectors simultaneously, amplifying inflationary pressures beyond what any single factor could have achieved alone."
+        }
+      ]
+    },
+    {
+      "section": {
+        "title": "Monetary Policy: The Liquidity Flood",
+        "caption": "How Federal Reserve emergency responses dramatically expanded money supply and created the foundation for inflationary pressures"
+      },
+      "slides": [
+        {
+          "index": 3,
+          "slide_content": "The Federal Reserve's pandemic response increased the M2 money supply by 40% in just two years, growing from $15.3 trillion in early 2020 to $21.7 trillion by 2021—the fastest monetary expansion in modern U.S. history.",
+          "speaker_notes": "The Federal Reserve's response to COVID-19 was both swift and massive in scale. Building on lessons learned from the 2008 financial crisis, the Fed implemented quantitative easing programs that dwarfed previous interventions. The M2 money supply, which includes cash, checking deposits, and easily convertible near money, grew by 40% in just 24 months. To put this in perspective, this two-year increase was larger than the total money supply growth of the previous decade. The Fed's balance sheet expanded from $4.2 trillion in early 2020 to $8.9 trillion by 2021, as they purchased government bonds and mortgage-backed securities to inject liquidity into the financial system. While this prevented a deflationary collapse during the initial pandemic shock, it created the monetary conditions that would later fuel inflation as the economy reopened."
+        },
+        {
+          "index": 4,
+          "slide_content": "Ultra-low interest rates maintained from March 2020 through March 2022 encouraged borrowing and investment, while simultaneously reducing the opportunity cost of holding cash and spending immediately.",
+          "speaker_notes": "The Federal Reserve cut interest rates to near zero in March 2020 and kept them there for two full years. This created powerful incentives for both borrowing and spending. For businesses, cheap credit meant easier access to capital for operations and expansion. For consumers, low rates reduced the cost of mortgages, car loans, and credit cards while making savings accounts and bonds less attractive. This had a particularly pronounced effect on asset prices—stocks, bonds, and real estate all surged as investors sought higher returns. The wealth effect from rising asset prices, combined with low borrowing costs, encouraged consumption just as supply chains were struggling to meet demand. When the Fed finally began raising rates in March 2022, inflation had already become entrenched across multiple sectors of the economy."
+        }
+      ]
+    },
+    {
+      "section": {
+        "title": "Supply Chain Disruptions: When Global Commerce Breaks Down",
+        "caption": "Examining how pandemic-related supply chain bottlenecks created widespread shortages and drove up costs across the economy"
+      },
+      "slides": [
+        {
+          "index": 5,
+          "slide_content": "Global supply chains collapsed under pandemic pressures, with container shipping costs increasing over 600% and creating bottlenecks that turned routine deliveries into months-long delays.",
+          "speaker_notes": "The pandemic exposed the fragility of global supply chains that had been optimized for efficiency rather than resilience. When countries imposed lockdowns and travel restrictions, the intricate network of suppliers, manufacturers, and transporters that move goods around the world began to break down. The Freightos Baltic Index, which tracks container shipping costs, rose from $1,400 per forty-foot container in early 2020 to over $10,000 in late 2021—a 615% increase. These weren't just abstract numbers; they translated directly into higher costs for everything from furniture to electronics. Port congestion, particularly at Los Angeles and Long Beach which handle 40% of U.S. container imports, created massive backlogs. At the peak, over 100 ships waited offshore for berths, compared to the normal zero to one ship."
+        },
+        {
+          "index": 6,
+          "slide_content": "The semiconductor shortage exemplified supply chain vulnerabilities, reducing U.S. auto production by 23% in 2021 and contributing to 30-40% increases in used car prices that drove overall inflation metrics.",
+          "speaker_notes": "The semiconductor chip shortage became the poster child for supply chain disruptions, but it also illustrates how modern supply chains create systemic vulnerabilities. Most chips are manufactured in Asia, with Taiwan alone producing 63% of the world's semiconductors. When COVID-19 shut down factories and disrupted shipping, the ripple effects spread across industries. The automotive sector was hit particularly hard because car manufacturers had canceled chip orders early in the pandemic, expecting reduced demand. When demand rebounded quickly, they found themselves at the back of the line behind electronics manufacturers. U.S. auto production fell from 10.9 million units in 2019 to just 8.4 million in 2021. This shortage drove consumers to used cars, where limited supply met high demand, pushing used vehicle prices up 40% and contributing significantly to overall CPI inflation, since transportation represents about 17% of the consumer price index."
+        }
+      ]
+    },
+    {
+      "section": {
+        "title": "Fiscal Stimulus: Putting Money in Consumers' Pockets",
+        "caption": "How unprecedented government spending programs increased consumer purchasing power during a period of constrained supply"
+      },
+      "slides": [
+        {
+          "index": 7,
+          "slide_content": "Federal COVID-19 stimulus programs totaling over $5 trillion—equivalent to 25% of 2020 GDP—injected unprecedented purchasing power into the economy while supply chains remained constrained.",
+          "speaker_notes": "The federal government's fiscal response to COVID-19 was historically unprecedented in both speed and scale. The CARES Act, Consolidated Appropriations Act, and American Rescue Plan Act together provided over $5 trillion in direct spending, loans, and tax relief. To put this in perspective, this amount exceeded the entire federal budget for 2019. The programs included direct payments to households totaling $931 billion, enhanced unemployment benefits that often paid more than previous wages, and Paycheck Protection Program loans that kept businesses afloat. This massive injection of purchasing power served its intended purpose of preventing economic collapse, but it also created a situation where consumers had more money to spend just as businesses were struggling to produce and deliver goods and services."
+        },
+        {
+          "index": 8,
+          "slide_content": "Direct stimulus payments and enhanced unemployment benefits maintained consumer spending levels even during lockdowns, creating persistent demand pressure as the economy reopened and supply remained limited.",
+          "speaker_notes": "The stimulus programs were remarkably effective at maintaining consumer spending power. Personal savings rates spiked to 33.8% in April 2020 as people received stimulus checks while having limited spending opportunities due to lockdowns. But as the economy began reopening, this pent-up demand, combined with continued stimulus flows, created strong spending patterns. Enhanced unemployment benefits that provided an additional $600 per week (and later $300) meant that many unemployed workers were earning more than they had while working. This wasn't necessarily problematic during the acute phase of the pandemic, but it became inflationary when demand surged back while supply chains remained disrupted. By March 2021, retail sales were growing 17.7% year-over-year, far exceeding the economy's ability to increase production in the short term."
+        }
+      ]
+    },
+    {
+      "section": {
+        "title": "Energy Market Volatility: The Price of Power",
+        "caption": "How dramatic swings in oil and gas prices created cascading effects throughout the economy"
+      },
+      "slides": [
+        {
+          "index": 9,
+          "slide_content": "Energy prices experienced extreme volatility, with WTI crude oil swinging from negative $37 per barrel in April 2020 to over $130 in 2022, directly contributing 2 percentage points to peak inflation.",
+          "speaker_notes": "Energy markets experienced unprecedented volatility during the pandemic period, creating one of the most visible drivers of inflation for consumers. In April 2020, oil prices briefly turned negative for the first time in history as storage capacity filled up and demand collapsed due to travel restrictions. But as the economy reopened and supply remained constrained by reduced investment in production capacity, prices swung dramatically upward. Gasoline prices, which consumers see most directly, rose from a low of $1.87 per gallon in April 2020 to over $4.33 in March 2022—a 132% increase. This wasn't just about filling up cars; energy costs ripple through the entire economy, affecting shipping costs, manufacturing expenses, and utility bills. At peak inflation in mid-2022, energy price increases were contributing approximately 2 percentage points to the overall CPI reading."
+        },
+        {
+          "index": 10,
+          "slide_content": "Natural gas prices surged 279% from pandemic lows to 2022 peaks, affecting heating costs and electricity generation while creating broader inflationary pressures across energy-intensive industries.",
+          "speaker_notes": "While gasoline prices grabbed headlines, natural gas price increases had equally significant but less visible effects on inflation. Natural gas is crucial for home heating, electricity generation, and industrial processes. The Henry Hub natural gas price rose from $1.63 per million BTU in June 2020 to $6.18 in October 2021. This increase affected millions of households directly through heating bills, but it also had broader economic impacts. Power plants that rely on natural gas had to pass higher costs on to utilities, who then passed them to consumers. Energy-intensive industries like chemicals, steel, and aluminum faced higher production costs. In some cases, companies reduced production or temporarily shut down facilities when energy costs became prohibitive. These dynamics created a feedback loop where higher energy costs led to reduced supply in other sectors, further amplifying inflationary pressures across the economy."
+        }
+      ]
+    },
+    {
+      "section": {
+        "title": "Labor Market Dynamics: The Great Resignation Meets Inflation",
+        "caption": "How pandemic-induced labor market changes created wage-price spiral pressures across key sectors"
+      },
+      "slides": [
+        {
+          "index": 11,
+          "slide_content": "Labor markets tightened dramatically as job openings reached record highs while workforce participation remained below pre-pandemic levels, creating a 2-to-1 ratio of available jobs to unemployed workers by 2022.",
+          "speaker_notes": "The pandemic fundamentally altered labor market dynamics in ways that contributed significantly to inflationary pressures. While unemployment initially spiked to 14.8% in April 2020, it fell rapidly as the economy reopened. However, labor force participation remained depressed, with approximately 2 million fewer people working or looking for work compared to pre-pandemic levels. This created an unprecedented situation where job openings reached record highs—over 11 million at peak—while the available workforce remained constrained. The job openings-to-unemployed ratio reached 2.0 in March 2022, meaning there were twice as many open positions as unemployed workers. This imbalance gave workers significant bargaining power and forced employers to compete aggressively for talent through higher wages and improved benefits."
+        },
+        {
+          "index": 12,
+          "slide_content": "Wage growth accelerated to 5.6% annually by 2021-2022, the fastest pace since the 1980s, with leisure and hospitality wages surging 14.9% as businesses competed for workers in reopening sectors.",
+          "speaker_notes": "The tight labor market translated directly into accelerating wage growth across the economy. Average hourly earnings grew 5.6% year-over-year during 2021-2022, the fastest pace since the early 1980s. But the increases were particularly dramatic in service sectors that had been most affected by pandemic restrictions. Leisure and hospitality wages jumped 14.9% as restaurants, hotels, and entertainment venues competed desperately for workers. Many of these businesses had laid off workers during lockdowns, and when they tried to reopen, they found that workers had moved to other industries or left the workforce entirely. The result was bidding wars for employees, with some restaurants offering signing bonuses, immediate raises, and unprecedented benefits just to maintain basic staffing levels. While workers benefited from these wage increases, they also contributed to services inflation as businesses passed higher labor costs on to consumers through menu prices, hotel rates, and service fees."
+        }
+      ]
+    }
+  ]
+}

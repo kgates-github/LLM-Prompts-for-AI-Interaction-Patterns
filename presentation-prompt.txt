@@ -1,0 +1,182 @@
+
+### SYSTEM
+
+You are a specialized AI trained to help people create slide deck presentations based on research you helped them explore and create.
+
+### USER
+
+
+TASK: Below is a JSON file you created with research findings about inflation over the last 10 years. Take this research and create a 12-slide presentation that focuses on the impact of COVID-19 on inflation. 
+
+REQUIREMENTS:
+Create a title that captures the essence of the contents
+Create a subheader that expands upon the title
+For each section, create a title and subheader
+For each section, create several slides.
+Each slide should have the following:
+Slide content: A concise sentence or two that captures the essence of the core concept of the slide. 
+Speaker notes. Speaker notes elaborate and expand upton the slide content. 
+OUTPUT FORMAT:
+{
+title: <string: title of the slide deck/>
+caption: <string: caption for the slide deck/>
+sections: [
+{
+    section: {
+    	title: <string: section title/>,
+    	caption: <string: caption/>,
+     }
+     slides: [
+    {
+      index: <int: number />,
+      slide_content: <string: content of slide />,
+      speaker_notes: <speaker notes/>
+     
+    },
+    ...
+  ]
+}
+...
+]
+}
+
+
+#####
+
+RESEARCH:
+
+{
+  "analysis_date": "2024-12-28",
+  "findings": [
+    {
+      "category": "Monetary Policy and Money Supply",
+      "title": "Federal Reserve Response to Economic Crises Increased Liquidity",
+      "summary": "The Federal Reserve's expansionary monetary policies during the 2008 financial crisis and COVID-19 pandemic significantly increased money supply. M2 money stock grew from $8.1 trillion in 2010 to $21.7 trillion by 2021, representing a 168% increase over the decade.",
+      "insights": [
+        {
+          "insight": "Quantitative easing programs increased the monetary base by over 400% between 2008-2014, laying groundwork for future inflationary pressures.",
+          "supporting_data": "Federal Reserve balance sheet expanded from $900 billion in 2007 to $4.5 trillion by 2014, with additional expansion to $8.9 trillion by 2021",
+          "sources": ["Federal Reserve Board H.4.1 Statistical Release", "FRED Economic Data - BOGMBASE"]
+        },
+        {
+          "insight": "Near-zero interest rates maintained from 2008-2015 and again from 2020-2022 encouraged borrowing and asset price inflation.",
+          "supporting_data": "Federal funds rate held at 0-0.25% for 84 months total across both periods, longest sustained period of ultra-low rates in U.S. history",
+          "sources": ["Federal Reserve Historical Data", "BEA Interest Rate Statistics"]
+        }
+      ]
+    },
+    {
+      "category": "Supply Chain and Global Trade",
+      "title": "Supply Chain Disruptions Created Bottlenecks and Price Pressures",
+      "summary": "Global supply chain disruptions, particularly during 2020-2022, created significant bottlenecks affecting goods availability and pricing. U.S. imports declined 13.4% in 2020 before rebounding with higher costs, while shipping rates increased by over 300% during peak disruption periods.",
+      "insights": [
+        {
+          "insight": "Semiconductor shortages impacted multiple industries, with automotive production declining 23% in 2021 compared to 2019 levels.",
+          "supporting_data": "U.S. auto production fell from 10.9 million units in 2019 to 8.4 million in 2021, contributing to 30-40% used car price increases",
+          "sources": ["Bureau of Economic Analysis", "Automotive News Data Center"]
+        },
+        {
+          "insight": "Container shipping costs increased dramatically, with the Freightos Baltic Index rising from $1,400 per forty-foot container in 2020 to over $10,000 in 2021.",
+          "supporting_data": "Average shipping costs increased 615% peak-to-peak, directly impacting import prices which rose 10.7% year-over-year in 2021",
+          "sources": ["Bureau of Labor Statistics Import Price Index", "Freightos Baltic Index"]
+        }
+      ]
+    },
+    {
+      "category": "Fiscal Policy and Government Spending",
+      "title": "Unprecedented Fiscal Stimulus Increased Aggregate Demand",
+      "summary": "Federal fiscal response to the COVID-19 pandemic included over $5 trillion in stimulus spending across multiple programs. This represented approximately 25% of 2020 GDP, creating significant demand-side inflationary pressures through increased consumer spending power.",
+      "insights": [
+        {
+          "insight": "Direct payments to households totaling $931 billion in 2020-2021 provided immediate purchasing power during supply-constrained periods.",
+          "supporting_data": "Personal savings rate peaked at 33.8% in April 2020, then declined as spending increased, with retail sales growing 17.7% year-over-year by March 2021",
+          "sources": ["Bureau of Economic Analysis Personal Income Data", "U.S. Census Bureau Retail Sales"]
+        },
+        {
+          "insight": "Enhanced unemployment benefits and PPP loans maintained consumer spending levels despite economic disruption, preventing deflationary spiral but contributing to demand pressures.",
+          "supporting_data": "Total unemployment compensation paid increased from $27 billion in 2019 to $580 billion in 2020, supporting consumption during lockdowns",
+          "sources": ["Department of Labor Employment Insurance Data", "Congressional Budget Office Budget Estimates"]
+        }
+      ]
+    },
+    {
+      "category": "Energy and Commodity Markets",
+      "title": "Energy Price Volatility Drove Core Inflation Components",
+      "summary": "Energy price fluctuations, including oil price volatility and natural gas shortages, contributed significantly to headline inflation. WTI crude oil prices ranged from negative $37 per barrel in April 2020 to over $130 in 2022, creating substantial price pressures across the economy.",
+      "insights": [
+        {
+          "insight": "Gasoline prices increased 58.1% year-over-year in March 2022, contributing approximately 2 percentage points to headline CPI inflation.",
+          "supporting_data": "National average gasoline price rose from $2.17 per gallon in April 2020 to $4.33 in March 2022, with energy comprising 32% of headline inflation increase",
+          "sources": ["Energy Information Administration Gasoline Price Data", "Bureau of Labor Statistics CPI Detailed Report"]
+        },
+        {
+          "insight": "Natural gas prices increased 279% from 2020 lows to 2022 peaks, affecting heating costs and electricity generation expenses.",
+          "supporting_data": "Henry Hub natural gas spot price rose from $1.63 per MMBtu in June 2020 to $6.18 in October 2021, impacting utility costs nationwide",
+          "sources": ["Energy Information Administration Natural Gas Data", "Federal Energy Regulatory Commission Market Reports"]
+        }
+      ]
+    },
+    {
+      "category": "Labor Markets and Wage Dynamics",
+      "title": "Tight Labor Markets Created Wage-Price Spiral Pressures",
+      "summary": "Labor market tightening during 2021-2022 created upward wage pressures as unemployment fell to 3.5% and job openings reached record highs. The ratio of job openings to unemployed persons peaked at 2.0 in March 2022, indicating severe labor shortages in key sectors.",
+      "insights": [
+        {
+          "insight": "Average hourly earnings growth accelerated to 5.6% year-over-year in 2021-2022, the fastest pace since the 1980s, contributing to services inflation.",
+          "supporting_data": "Leisure and hospitality wages increased 14.9% year-over-year in 2021 as businesses competed for workers, while overall services CPI rose 4.6%",
+          "sources": ["Bureau of Labor Statistics Employment Situation", "BLS Consumer Price Index Services"]
+        },
+        {
+          "insight": "Labor force participation remained below pre-pandemic levels, constraining supply while demand for workers increased, creating persistent wage pressures.",
+          "supporting_data": "Labor force participation rate of 62.2% in 2022 compared to 63.4% in February 2020, representing approximately 2 million fewer workers available",
+          "sources": ["Bureau of Labor Statistics Labor Force Statistics", "Congressional Budget Office Labor Market Analysis"]
+        }
+      ]
+    },
+    {
+      "category": "Housing and Asset Markets",
+      "title": "Housing Market Dynamics Contributed to Shelter Cost Inflation",
+      "summary": "Housing costs, representing approximately one-third of CPI, experienced significant increases due to low inventory, demographic shifts, and low mortgage rates. The Case-Shiller Home Price Index increased 34.4% from 2020 to 2022, creating substantial wealth effects and rental cost pressures.",
+      "insights": [
+        {
+          "insight": "Mortgage rates declining to historic lows of 2.65% in 2021 increased housing demand while supply remained constrained, driving price appreciation.",
+          "supporting_data": "Housing starts averaged 1.6 million annually 2014-2019 but household formation averaged 1.2 million, creating cumulative shortage of 2-4 million units",
+          "sources": ["Federal Housing Finance Agency House Price Index", "U.S. Census Bureau Housing Starts Data"]
+        },
+        {
+          "insight": "Rental costs increased as homeownership became less affordable, with rent of primary residence CPI component rising 8.8% year-over-year in 2022.",
+          "supporting_data": "Median home price-to-income ratio reached 7.7 in 2022 compared to historical average of 4.6, pushing more households into rental market",
+          "sources": ["National Association of Realtors Housing Affordability Index", "Bureau of Labor Statistics Rent CPI"]
+        }
+      ]
+    }
+  ],
+  "methodology_notes": "Analysis based on official government statistics and peer-reviewed research covering 2014-2024 period. Data limitations include: 1) CPI methodology changes may affect historical comparisons, 2) Some supply chain data relies on private industry sources due to limited official tracking, 3) Real-time vs. revised economic data may show variations, 4) International comparisons limited by different statistical methodologies across countries. Quantitative analysis focused on measurable price impacts while acknowledging complex interactions between multiple causal factors."
+}
+
+
+####
+
+Output everything in JSON like this:
+{
+title: <string: title of the slide deck/>
+caption: <string: caption for the slide deck/>
+sections: [
+{
+    section: {
+    	title: <string: section title/>,
+    	caption: <string: caption/>,
+     }
+     slides: [
+    {
+      index: <int: number />,
+      slide_content: <string: content of slide />,
+      speaker_notes: <speaker notes/>
+     
+    },
+    ...
+  ]
+}
+...
+]
+}
