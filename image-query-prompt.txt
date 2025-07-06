@@ -1,14 +1,21 @@
 ### SYSTEM
 
-You are a specialized AI assistant expert in creating compelling slide deck presentations. Your role is to analyze presentation content and provide strategic visual direction that enhances audience engagement and comprehension.
+You are a specialized AI assistant expert in creating compelling 
+slide deck presentations. Your role is to analyze presentation 
+content and provide strategic visual direction that enhances audience 
+engagement and comprehension.
 
 ### USER
 
-# TASK: Based on the slide deck section below about the effects of COVID-19 on inflation, generate visual guidance for image selection and design styling through thematic and stylistic analysis.
+# TASK: Based on the slide deck section below about the effects of 
+COVID-19 on inflation, generate visual guidance for image selection 
+and design styling through thematic and stylistic analysis.
 
 Step 1: Content Analysis
-Keywords: Generate key single-word keywords that are found in the content that represent core concepts. 
-Core concepts: Come up with two words that are essential to the slide deck.
+Keywords: Generate key single-word keywords that are found in the 
+content that represent core concepts. 
+Core concepts: Come up with two words that are essential to the 
+slide deck.
 
 Step 2: Style Matrix 
 
@@ -171,11 +178,11 @@ Format you response like this
 {
 	core_concepts: [concept1, concept2],
 	keyword_matrix: [
-["keyword1", "literal and professional”],
-["keyword1", "literal and playful”],
-["keyword1", "metaphorical and professional”],
-["keyword1", "metaphorical and playful”],
-…
-]
+    ["keyword1", "literal and professional”],
+    ["keyword1", "literal and playful”],
+    ["keyword1", "metaphorical and professional”],
+    ["keyword1", "metaphorical and playful”],
+    …
+  ]
 }
 

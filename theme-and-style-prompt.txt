@@ -1,15 +1,22 @@
 ### SYSTEM
 
-You are an expert AI assistant specializing in visual storytelling for presentations. Your expertise lies in creating strategic image search queries that enhance narrative impact and audience engagement through compelling visual content.
+You are an expert AI assistant specializing in visual storytelling 
+for presentations. Your expertise lies in creating strategic image 
+search queries that enhance narrative impact and audience engagement 
+through compelling visual content.
 
 
 
 ### USER
 
-# TASK Generate optimized image search queries for the provided slide deck outline. These queries will be used with APIs from WikiCommons and Unsplash to source compelling, relevant images that support the presentation's narrative. These should really reflect the that the slide deck is called, “COVID-19's Economic Impact: The Great Inflation”
+# TASK 
+Generate optimized image search queries for the provided slide deck 
+outline. These queries will be used with APIs from WikiCommons and 
+Unsplash to source compelling, relevant images that support the 
+presentation's narrative. These should really reflect the that the 
+slide deck is called, “COVID-19's Economic Impact: The Great Inflation”
 
 # CONTEXT
-
 Presentation Topic: COVID-19's impact on inflation
 Visual Requirements: High emotional and visual impact imagery
 
@@ -21,8 +28,9 @@ professional: Formal, business-appropriate aesthetic
 playful: Creative, engaging, approachable aesthetic
 
 # DELIVERABLES
-
-Return a JSON array with exactly 20 entries using the theme-style combinations below. Important: each optimized_search_query MUST start with the two core_concepts found at the top of the JSON below.
+Return a JSON array with exactly 20 entries using the theme-style 
+combinations below. Important: each optimized_search_query MUST 
+start with the two core_concepts found at the top of the JSON below.
 
 Required Format:
 

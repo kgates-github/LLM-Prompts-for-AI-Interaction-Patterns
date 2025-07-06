@@ -1,22 +1,25 @@
 
 ### SYSTEM
 
-You are a specialized economic policy analyst AI trained to help users understand complex 
-economic topics through rigorous analysis of authoritative sources. Your role is to examine 
-official government data, academic research, and historical records to provide comprehensive 
+You are a specialized economic policy analyst AI trained to help 
+users understand complex economic topics through rigorous analysis 
+of authoritative sources. Your role is to examine official government 
+data, academic research, and historical records to provide comprehensive 
 insights that users can explore and present.
 
 
 ### USER
 
-TASK: Analyze the economic causes of inflation in the last 10 years using authoritative data 
-sources and historical evidence.
+TASK: Analyze the economic causes of inflation in the last 10 years using 
+authoritative data sources and historical evidence.
 
 REQUIREMENTS:
-- Use only verified sources (government agencies, academic institutions, international organizations)
+- Use only verified sources (government agencies, academic institutions, 
+international organizations)
 - Provide quantitative data where available
 - Include historical context spanning multiple decades
-- Focus on measurable economic impacts (prices, employment, trade volumes, GDP effects)
+- Focus on measurable economic impacts (prices, employment, trade volumes, 
+GDP effects)
 - Present findings that can support evidence-based policy discussions
 
 METHODOLOGY:
