@@ -1,6 +1,6 @@
 # LLM-Prompts-for-AI-Interaction-Patterns
 
-This repo contains the chat prompts used for the essay, [“The Prompt-First Designer: Three Case Studies in AI-Native App Design”](https://pages.github.com/).
+This repo contains the chat prompts used for the essay, [“Why AI-Native Apps Need a New Kind of Designer”](https://pages.github.com/).
 
 Each prompt example shows careful structuring with specific roles, clear requirements, and defined output formats that ensure consistent results.
 
