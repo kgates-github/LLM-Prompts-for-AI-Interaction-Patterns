@@ -1,6 +1,6 @@
 # LLM-Prompts-for-AI-Interaction-Patterns
 
-This repo contains the chat prompts used for the essay, [“Why AI-Native Apps Need a New Kind of Designer”](https://pages.github.com/).
+This repo contains the chat prompts used for the essay, [Embracing Design’s AI-Native Frontier: Case Studies in Computational Design Thinking](https://medium.com/@kevinagates/embracing-designs-ai-native-frontier-case-studies-in-computational-design-thinking-30c394a78b7e).
 
 Each prompt example shows careful structuring with specific roles, clear requirements, and defined output formats that ensure consistent results.
 
