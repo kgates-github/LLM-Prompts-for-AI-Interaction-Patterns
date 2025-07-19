@@ -2,8 +2,6 @@
 
 This repo contains the chat prompts used for the essay, [Embracing Design’s AI-Native Frontier: Case Studies in Computational Design Thinking](https://medium.com/@kevinagates/embracing-designs-ai-native-frontier-case-studies-in-computational-design-thinking-30c394a78b7e).
 
-Each prompt example shows careful structuring with specific roles, clear requirements, and defined output formats that ensure consistent results.
-
 I ran these prompts using Anthropic’s dev console, which requires you to set up an account. You could also run them in the free version, but may get different results.
 
 https://console.anthropic.com/
@@ -18,9 +16,7 @@ The research prompt is meant to represent how an AI-native app might empower use
 topics before deciding on a direction.
 
 It demonstrates how to transform a broad topic like "inflation" into structured research that 
-can power presentations, reports, or educational content. It combines specific 
-role definition, clear methodology, and structured output formatting to ensure comprehensive, 
-authoritative results. The prompt also has the output cite credible sources.
+can power presentations, reports, or educational content. 
 
 Output from this prompt produces a broad perspective on inflation over the last 10 years. When 
 we create the slide deck (using the presentation prompt), we ask the LLM to focus on a topic 
