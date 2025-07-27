@@ -40,6 +40,6 @@ Note: This prompt creates queries based on the whole slide deck, which is approp
 CASE STUDY II
 <br/><br/>
 
-[Deep dive prompt](https://github.com/kgates-github/LLM-Prompts-for-AI-Interaction-Patterns/blob/main/image-query-prompt.txt)
+[Deep dive prompt](https://github.com/kgates-github/LLM-Prompts-for-AI-Interaction-Patterns/blob/main/deep-dive-prompt.txt)
 
 This prompt creates an AI research assistant that helps users answer questions about slide deck presentations by conducting web research using credible sources and providing structured JSON responses with both brief answers and detailed reports.
