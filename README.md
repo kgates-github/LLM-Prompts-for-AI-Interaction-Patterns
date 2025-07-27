@@ -9,7 +9,7 @@ I ran these prompts using Anthropic’s dev console, which requires you to set u
 https://console.anthropic.com/
 
 <br/>
-CONTENTS
+CASE STUDY I
 <br/><br/>
 
 [Research prompt](https://github.com/kgates-github/LLM-Prompts-for-AI-Interaction-Patterns/blob/main/research-prompt.txt)
@@ -39,3 +39,11 @@ This prompt takes a slide deck outline and comes up with themes that capture the
 This prompt takes a matrix of themes and styles and generates search queries to be used with image search APIs. 
 
 Note: This prompt creates queries based on the whole slide deck, which is appropriate for finding images for the intro slides, but it might be more effective to have queries created for each section, or even each slide.
+
+<br/>
+CASE STUDY II
+<br/><br/>
+
+[Deep dive prompt](https://github.com/kgates-github/LLM-Prompts-for-AI-Interaction-Patterns/blob/main/image-query-prompt.txt)
+
+This prompt creates an AI research assistant that helps users answer questions about slide deck presentations by conducting web research using credible sources and providing structured JSON responses with both brief answers and detailed reports.
